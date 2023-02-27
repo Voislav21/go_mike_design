@@ -870,13 +870,13 @@ h4 {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
 }
 
@@ -885,7 +885,7 @@ h4 {
         width: 100%;
     }
     .b-parallax {
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
     .page-container,
     #hero-bloc {
@@ -926,7 +926,7 @@ h4 {
         padding-right: 10px;
     }
     .b-parallax {
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
     .navbar .nav {
         padding-top: 0;
