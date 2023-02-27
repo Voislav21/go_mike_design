@@ -461,7 +461,9 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    margin-top: 22px;
+    background: none;
+    border: none;
 }
 
 .btn-rd {
@@ -690,9 +692,20 @@ p {
     font-family: "Open Sans";
 }
 
+.image-resize-mode{
+    max-height: 200px;
+}
+
+.flex-wrap{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .cta-hero {
-    margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 1.0em;
