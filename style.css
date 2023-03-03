@@ -697,6 +697,10 @@ p {
     max-height: 100px;
 }
 
+.center-img{
+    margin: auto;
+}
+
 .flex-wrap{
     display: flex;
     flex-direction: column;
@@ -1056,5 +1060,8 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .margin{
+        margin-bottom: 45px;
     }
 }
