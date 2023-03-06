@@ -193,9 +193,9 @@ $(document).ready(function() {
         t.preventDefault(), $("html,body").animate({
             scrollTop: $("#scroll-hero").closest(".bloc").height()
         }, "slow")
-    }), extraNavFuncs(), setUpSpecialNavs(), setUpDropdownSubs(), setUpLightBox(), setUpVisibilityToggle(), addSwipeSupport(), addKeyBoardSupport(), -1 != navigator.userAgent.indexOf("Safari") && -1 == navigator.userAgent.indexOf("Chrome") && $("#page-loading-blocs-notifaction").remove()
+    }), extraNavFuncs(), setUpSpecialNavs(), setUpDropdownSubs(), setUpLightBox(), setUpVisibilityToggle(), addSwipeSupport(), addKeyBoardSupport(), -1 != navigator.userAgent.indexOf("Safari") && -1 == navigator.userAgent.indexOf("Chrome") && $("#page-loading-blocs-notifacation").remove()
 }), $(window).load(function() {
-    setFillScreenBlocHeight(), animateWhenVisible(), $("#page-loading-blocs-notifaction").remove()
+    setFillScreenBlocHeight(), animateWhenVisible(), $("#page-loading-blocs-notifacation").remove()
 }).resize(function() {
     setFillScreenBlocHeight()
 }), $(function() {
